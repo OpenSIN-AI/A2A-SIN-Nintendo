@@ -1,14 +1,38 @@
 # A2A-SIN-Nintendo
 
-Nintendo Switch Online messaging
+> A2A agent for Nintendo integration within the OpenSIN ecosystem.
 
-## Setup
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/OpenSIN-AI/A2A-SIN-Nintendo)](https://github.com/OpenSIN-AI/A2A-SIN-Nintendo)
+
+## Overview
+
+This repository provides an Agent-to-Agent (A2A) integration for Nintendo, enabling seamless communication and automation within the OpenSIN-AI ecosystem.
+
+## Quick Start
 
 ```bash
-export A2A_SIN_Nintendo_TOKEN=your-token
+git clone https://github.com/OpenSIN-AI/A2A-SIN-Nintendo.git
+cd A2A-SIN-Nintendo
 npm install
 npm start
 ```
 
+## Features
+
+- A2A protocol support for Nintendo
+- Automated message routing
+- Integration with OpenSIN MCP servers
+- Full observability via OpenSIN-Ledger
+
+## Architecture
+
+This agent connects to the OpenSIN orchestrator and handles Nintendo-specific messaging through the A2A protocol.
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## License
-MIT
+
+MIT — See [LICENSE](LICENSE).
